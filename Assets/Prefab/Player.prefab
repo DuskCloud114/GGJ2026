@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveAction: {fileID: -4195775276850652726, guid: d79f67b58c96458429011045e17efef4, type: 3}
-  mainAttackAction: {fileID: 0}
+  mainAttackAction: {fileID: -7425499467614831535, guid: d79f67b58c96458429011045e17efef4, type: 3}
 --- !u!114 &7085111404643049284
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@ public class PlayerAnimation : MonoBehaviour
 {
     private Animator _animator;
 
-    // Parameter IDs for optimization
+    // 用于优化的参数 ID
     private int _speedParamID;
     private int _attackParamID;
 
