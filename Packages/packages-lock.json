@@ -7,6 +7,15 @@
       "dependencies": {},
       "hash": "6a9b7c7984385adfbc5e7cbc38387fc15858ce10"
     },
+    "com.coplaydev.unity-mcp": {
+      "version": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#main",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "hash": "9729d7a0aa43d7b6617d1f2965e7749ca409c19a"
+    },
     "com.unity.2d.animation": {
       "version": "9.2.0",
       "depth": 1,
@@ -170,8 +179,24 @@
       },
       "url": "https://packages.unity.cn"
     },
+    "com.unity.inputsystem": {
+      "version": "1.14.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://packages.unity.cn"
+    },
     "com.unity.mathematics": {
       "version": "1.2.6",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.cn"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
