@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
-    [Header("Movement Settings")]
+    [Header("移动设置")]
     [SerializeField] private float moveSpeed = 8f;
 
     private Rigidbody2D _rb;
@@ -17,20 +17,20 @@ public class PlayerMovement : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _playerAnimation = GetComponent<PlayerAnimation>();
 
-        // Ensure gravity is off for top-down
+        // 确保俯视角下重力倍率为0
         _rb.gravityScale = 0f;
     }
 
     private void FixedUpdate()
     {
-        // Apply Movement
+        // 应用移动
         _rb.velocity = _moveInput * moveSpeed;
 
-        // Standard Top-Down Flip (optional, faces left/right)
+        // 标准俯视角翻转 (可选，面向左/右)
         if (_moveInput.x > 0) transform.localScale = new Vector3(1, 1, 1);
         else if (_moveInput.x < 0) transform.localScale = new Vector3(-1, 1, 1);
 
-        // Update Animation
+        // 更新动画
         if (_playerAnimation != null)
         {
             _playerAnimation.SetSpeed(_rb.velocity.magnitude);
@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        // Input is handled via SetMoveInput from InputHandler
+        // 输入通过 InputHandler 的 SetMoveInput 处理
     }
 
     public void SetMoveInput(Vector2 input)

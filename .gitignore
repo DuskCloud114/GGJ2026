@@ -101,3 +101,7 @@ InitTestScene*.unity*
 # Anitgravity相关
 /Antigravity.Ide.Editor.csproj
 /GGJ2026.sln
+
+#vibe coding相关
+/AGENTS.md
+/SKILL.md

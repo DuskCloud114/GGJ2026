@@ -15,7 +15,7 @@ public class PlayerAttack : MonoBehaviour
     public void Attack()
     {
         OnAttack?.Invoke();
-        // if (_playerAnimation != null)
+        // 如果 _playerAnimation 不为空
         // {
         //     _playerAnimation.OnAttack();
         // }

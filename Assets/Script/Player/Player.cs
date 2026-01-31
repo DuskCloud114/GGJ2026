@@ -7,6 +7,7 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerMovement))]
 [RequireComponent(typeof(PlayerAnimation))]
 [RequireComponent(typeof(PlayerAttack))]
+[RequireComponent(typeof(PlayerPossession))]
 public class Player : MonoBehaviour
 {
     // 这里可以作为一个中心访问点，或者保留为空，仅作为组件容器

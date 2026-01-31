@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 7085111404643049284}
   - component: {fileID: 5850997483014736810}
   - component: {fileID: 8248130220013379844}
+  - component: {fileID: 7139267982349043190}
   - component: {fileID: 8783989677973453484}
   m_Layer: 0
   m_Name: Player
@@ -151,6 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveAction: {fileID: -4195775276850652726, guid: d79f67b58c96458429011045e17efef4, type: 3}
   mainAttackAction: {fileID: -7425499467614831535, guid: d79f67b58c96458429011045e17efef4, type: 3}
+  possessionAction: {fileID: 0}
 --- !u!114 &7085111404643049284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,6 +208,19 @@ MonoBehaviour:
   m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &7139267982349043190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303063278830334919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71d0690bc1e630141b6cb62396868e48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxPossessionTime: 5
 --- !u!50 &8783989677973453484
 Rigidbody2D:
   serializedVersion: 4
